@@ -1,0 +1,51 @@
+/*nav section*/
+   
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin : auto;
+}
+nav > ul{
+    display : flex;
+    gap : 44px;
+    align-items : center;
+   
+}
+nav li{
+    list-style : none;
+}
+nav li a{
+    text-decoration : none;
+}
+
+/*banner section*/
+ 
+.banner{
+    background-image : url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat : no-repeat;
+    width: 1170px;
+    height: 500px;
+   
+   
+
+}
+.banner{
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 135px;
+}
+/*main popular section*/
+
+.popular{
+       text-align: center;
+       display: flex;
+}
+
+/* destinatio part-star */
+
+.row-1{
+   display: flex;
+}
+.destinatio{
+    text-align: center;
+}
