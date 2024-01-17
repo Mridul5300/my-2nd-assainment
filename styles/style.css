@@ -30,15 +30,6 @@ nav > ul{
     font-weight: 400px;
     color:  var(--Dark-02, #424247);
     
-
-   
-}
-
-.fa-solid{
-    width: 48px;
-    height: 56.008px;
-    color: orangered;
-
 }
 
 nav li{
@@ -121,7 +112,7 @@ color:#FFFFFF;
 /*main popular section*/
 
 .main{
-    margin: 0 auto;
+  
     max-width: 1170px;
     justify-content: space-between;
     display: flex;
@@ -356,7 +347,7 @@ text-align: center;
     height: 700px;
     margin: 0px auto;
     display: block;
-    position: absolute;
+    
 }
 .bonuce{
     border-radius: 16px;
@@ -370,7 +361,102 @@ text-align: center;
    left: 50%;
    top: 20%;
 }
+/*foter section*/
+.foter-main{
+    background: rgba(19, 19, 24, 0.05);
+     text-align: center;
+
+}
 @media only screen and (max-widh-692){
+ 
+    .banner{
+        text-align: center;
+        margin: 0px auto;
+        
+    }
+    
+    .banner-tittle{
+        color: #FFF;
+        font-size: 64px;
+        font-weight: 800px;
+       
+    }
+    
+    .banner-text{
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 26px;
+    }
+    .dropdown{
+     
+    }
+    .from{
+        background: rgba(255, 255, 255, 0.30);
+      
+    }
+    .from input{
+        width: 174px;
+        height: 49px;
+    
+    }
+    #when{
+        width: 174px;
+        height: 52px;
+    }
+    #slect-type {
+        width: 174px;
+        height: 52px;
+    }
+    button{
+        width: 174px;
+        height: 52px;
+      flex-direction: column;
+    }
+    .fa-solid{
+        width: 24px;
+    height: 24px;
+    color:#FFFFFF;
+    }
+    
+    /*main popular section*/
+    
+    .main{
+      
+        max-width: 1170px;
+         
+       flex-direction: column;
+        gap: 40px;
+    }
+    .popular{
+        max-width:50%%;
+    }
+    .popular-tittle{
+        font-size: 40px;
+        font-weight: 800px;
+        color:  #131318;
+        margin-top: 10px 0px;
+    }
+    
+    .popular-paragraph li{
+    }
+    
+    .popular-image img{
+            width: 100%;
+    }
+    .popular-image{
+        max-width: 100%;
+        display: grid;
+        grid-template-rows: repeat(2.fr);
+    }
+    .choseus-section{
+        margin-left: 50%;
+           flex-direction: column;
+    }
+    .main-news{
+        display: flex;
+        max-width: 1200px;
+        margin: 0px auto;
 
-
+    }
 }
